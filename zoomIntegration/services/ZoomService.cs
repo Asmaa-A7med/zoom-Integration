@@ -39,7 +39,7 @@ namespace zoomIntegration.services
 
             if (!response.IsSuccessStatusCode)
             {
-                // هنا نطبع الخطأ الكامل اللي رجعه Zoom
+                
                 throw new Exception($"Zoom Token Request failed with status {response.StatusCode}: {json}");
             }
 
